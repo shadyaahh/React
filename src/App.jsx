@@ -28,7 +28,10 @@
 // {/* -------------------class Component------------- */}
 
 import React, { Component } from 'react'
-import Counter2 from '../class-components/counter2'
+import UnMounting from '../class-components/live-cycle-methods/UnMounting'
+// import Updating from '../class-components/live-cycle-methods/Updating'
+// import Mounting from '../class-components/live-cycle-methods/mounting'
+// import Counter2 from '../class-components/counter2'
 // import UsingProps from '../class-components/UsingProps'
 // import Counter from '../class-components/Counter'
 // import Basic from '../class-components/Basic'
@@ -40,8 +43,10 @@ export default class App extends Component {
       {/* <Basic/> */}
       {/* <UsingProps name="shadiya"/> */}
       {/* <Counter/> */}
-      <Counter2/>
-
+      {/* <Counter2/> */}
+      {/* <Mounting/> */}
+      {/* <Updating/> */}
+      <UnMounting/>
       </>
     )
   }
