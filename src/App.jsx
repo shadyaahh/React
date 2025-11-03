@@ -5,6 +5,11 @@
 // import Calling_function from './embedding-expression/Calling_function'
 // import Welcome from './embedding-expression/Welcome'
 
+import UserList from "./functional-components/Hooks/useEffect-Hook/UserList"
+
+// import Timer from "./functional-components/Hooks/useEffect-Hook/Timer"
+
+
 // import Greeting from "./functional-components/Greeting"
 // import Props from "./functional-components/Props"
 
@@ -19,20 +24,23 @@ function App() {
 
   return (
     <>
-    {/* ---------------------------Embedding Expression---------------- */}
+      {/* ---------------------------Embedding Expression---------------- */}
       {/* <Welcome /> */}
       {/* <Calling_function/> */}
       {/* <Conditional/> */}
       {/* <RenderingLists/> */}
 
       {/*---------------functional componets---------------------*/}
-    {/* <Basic/> */}
-    {/* <State/> */}
-    {/* <Props/> */}
-    
-      
+      {/* <Basic/> */}
+      {/* <State/> */}
+      {/* <Props/> */}
+      {/* --------------------------hooks & life cycle methods------------------------ */}
+      {/* <Timer /> */}
+      <UserList/>
 
-     </>
+
+
+    </>
   )
 }
 
@@ -57,15 +65,15 @@ export default App
 //   render() {
 //     return (
 //       <>
-      {/* <Basic/> */}
-      {/* <UsingProps name="shadiya"/> */}
-      {/* <Counter/> */}
-      {/* <Counter2/> */}
-      {/* <Mounting/> */}
-      {/* <Updating/> */}
-      {/* <UnMounting/> */}
-      {/* <Time/> */}
-      {/* </>
+{/* <Basic/> */ }
+{/* <UsingProps name="shadiya"/> */ }
+{/* <Counter/> */ }
+{/* <Counter2/> */ }
+{/* <Mounting/> */ }
+{/* <Updating/> */ }
+{/* <UnMounting/> */ }
+{/* <Time/> */ }
+{/* </>
     )
   }
 } */}
