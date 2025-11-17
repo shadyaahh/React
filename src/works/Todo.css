@@ -1,0 +1,94 @@
+/* Container */
+.todo-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Add Task Section */
+.add-section {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  background: #0056b3;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Task Section Card */
+.task-section {
+  margin-top: 30px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  background: #e8ffe8;
+}
+
+/* Task Items */
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.completed-item span {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* Empty message */
+.empty-msg {
+  color: gray;
+  font-size: 14px;
+}

@@ -5,7 +5,15 @@
 // import Calling_function from './embedding-expression/Calling_function'
 // import Welcome from './embedding-expression/Welcome'
 
-import ProfileCard from "./works/ProfileCard"
+import AxiosPost from "./axios/AxiosPost"
+
+// import AxiosGet from "./axios/AxiosGet"
+
+// import Todo from "./works/Todo"
+
+// import Crud from "./Local-storage/Crud"
+
+// import ProfileCard from "./works/ProfileCard"
 
 
 // import Crud from "../Local-storage/Crud"
@@ -49,7 +57,15 @@ function App() {
     {/* ----------------------------react keys-------------------- */}
     {/* <Form/> */}
     {/* <Crud/> */}
-    <ProfileCard/>
+    {/* <ProfileCard/> */}
+    {/* ------------------------------local storage--------------------------- */}
+    {/* <Crud/> */}
+    {/* <Todo/> */}
+
+    {/* --------------------------------------------------axios------------------- */}
+
+    {/* <AxiosGet/> */}
+    <AxiosPost/>
     </>
   )
 }
