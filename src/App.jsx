@@ -5,7 +5,15 @@
 // import Calling_function from './embedding-expression/Calling_function'
 // import Welcome from './embedding-expression/Welcome'
 
-import AxiosPost from "./axios/AxiosPost"
+import Player from "./functional-components/Hooks/Player"
+
+// import Delete from "./axios/Delete"
+
+// import Put from "./axios/put"
+
+// import Player from "./functional-components/Hooks/useEffect-Hook/Player"
+
+// import AxiosPost from "./axios/AxiosPost"
 
 // import AxiosGet from "./axios/AxiosGet"
 
@@ -65,7 +73,13 @@ function App() {
     {/* --------------------------------------------------axios------------------- */}
 
     {/* <AxiosGet/> */}
-    <AxiosPost/>
+    {/* <AxiosPost/> */}
+    {/* <Player/> */}
+    {/* <Put/> */}
+    {/* <Delete/> */}
+    <Player/>
+    
+
     </>
   )
 }
