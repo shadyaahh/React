@@ -5,7 +5,13 @@
 // import Calling_function from './embedding-expression/Calling_function'
 // import Welcome from './embedding-expression/Welcome'
 
-import Player from "./functional-components/Hooks/Player"
+import { Route, Routes } from "react-router-dom"
+import ProductDetails from "./desings/dynamic-routing-rw-wxample/ProductDetails"
+import ProductPage from "./desings/dynamic-routing-rw-wxample/ProductPage"
+
+// import UseLayoutEffect from "./functional-components/Hooks/UseLayoutEffect"
+
+// import Player from "./functional-components/Hooks/Player"
 
 // import Delete from "./axios/Delete"
 
@@ -62,23 +68,29 @@ function App() {
       {/* <Timer /> */}
       {/* <UserList/> */}
 
-    {/* ----------------------------react keys-------------------- */}
-    {/* <Form/> */}
-    {/* <Crud/> */}
-    {/* <ProfileCard/> */}
-    {/* ------------------------------local storage--------------------------- */}
-    {/* <Crud/> */}
-    {/* <Todo/> */}
+      {/* ----------------------------react keys-------------------- */}
+      {/* <Form/> */}
+      {/* <Crud/> */}
+      {/* <ProfileCard/> */}
+      {/* ------------------------------local storage--------------------------- */}
+      {/* <Crud/> */}
+      {/* <Todo/> */}
 
-    {/* --------------------------------------------------axios------------------- */}
+      {/* --------------------------------------------------axios------------------- */}
 
-    {/* <AxiosGet/> */}
-    {/* <AxiosPost/> */}
-    {/* <Player/> */}
-    {/* <Put/> */}
-    {/* <Delete/> */}
-    <Player/>
-    
+      {/* <AxiosGet/> */}
+      {/* <AxiosPost/> */}
+      {/* <Player/> */}
+      {/* <Put/> */}
+      {/* <Delete/> */}
+      {/* <Player/> */}
+      {/* <UseLayoutEffect/> */}
+      {/* <ProductPage/> */}
+      <Routes>
+        <Route path='/' element={<ProductPage />} />
+        <Route path='/produt/:id' element={<ProductDetails />} />
+      </Routes>
+
 
     </>
   )
